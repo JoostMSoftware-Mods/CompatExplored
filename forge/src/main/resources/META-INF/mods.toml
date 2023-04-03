@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "compatexplored"
+version = "${version}"
+displayName = "Compat Explored"
+authors = "JoostMSoftware"
+description = '''
+Adds compatibilities to regions unexplored!
+'''
+#logoFile = ""
+
+[[dependencies.compatexplored]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.compatexplored]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,)"
+ordering = "NONE"
+side = "BOTH"

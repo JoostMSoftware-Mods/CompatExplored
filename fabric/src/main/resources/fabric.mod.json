@@ -20,7 +20,7 @@
     ]
   },
   "depends": {
-    "fabric": "*",
-    "minecraft": ">=1.19.2"
+    "minecraft": ">=1.19.2",
+    "regions_unexplored": ">=0.4.0+1.19.2"
   }
 }

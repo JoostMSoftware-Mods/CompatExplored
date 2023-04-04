@@ -28,6 +28,8 @@ dependencies {
     forge "net.minecraftforge:forge:${rootProject.forge_version}"
     // Remove the next line if you don't want to depend on the API
 //    modApi "dev.architectury:architectury-forge:${rootProject.architectury_version}"
+    modImplementation "curse.maven:regions_unexplored-659110:4470188"
+    modImplementation "com.github.glitchfiend:TerraBlender-forge:1.19.2-2.0.1.136"
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }

@@ -27,6 +27,13 @@ dependencies {
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
+
+    // RU and it's dependencies
+    modImplementation "curse.maven:regions-unexplored-659110:4470171"
+    modImplementation "com.github.glitchfiend:TerraBlender-fabric:1.19.2-2.0.1.136"
+    implementation 'com.electronwill.night-config:core:3.6.5'
+    implementation 'com.electronwill.night-config:toml:3.6.5'
+    modImplementation "net.minecraftforge:forgeconfigapiport-fabric:4.2.11"
 }
 
 processResources {
